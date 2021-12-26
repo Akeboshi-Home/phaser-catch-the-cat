@@ -1,3 +1,3 @@
 # 捉住小猫
 
-[开始游戏](https://Akeboshi-Home.github.io/phaser-catch-the-cat/)
+[开始游戏](https://akeboshi-home.github.io/phaser-catch-the-cat/publish/index.html)

@@ -1,6 +1,6 @@
 # 捉住小猫
 
-[开始游戏](https://ganlvtech.github.io/phaser-catch-the-cat/)
+[开始游戏](https://Akeboshi1.github.io/phaser-catch-the-cat/)
 [![Build Status](https://www.travis-ci.org/ganlvtech/phaser-catch-the-cat.svg?branch=master)](https://www.travis-ci.org/ganlvtech/phaser-catch-the-cat)
 
 ## 游戏玩法
@@ -35,7 +35,7 @@
         backgroundColor: 0xeeeeee,
         parent: 'catch-the-cat',
         statusBarAlign: 'center',
-        credit: 'github.com/ganlvtech'
+        credit: 'github.com/Akeboshi1'
     });
 </script>
 ```
@@ -55,7 +55,7 @@
 | backgroundColor | `0xeeeeee`             | 背景颜色                            |
 | parent          | `catch-the-cat`        | 父元素的 id 或 DOM 对象             |
 | statusBarAlign  | `center`               | 状态栏左对齐 `left` 或居中 `center` |
-| credit          | `github.com/ganlvtech` | 右下角的备注信息                    |
+| credit          | `github.com/Akeboshi1` | 右下角的备注信息                    |
 
 ## 自己编写算法
 
@@ -97,7 +97,7 @@ window.game.solver = function (blocksIsWall, i, j) {
 
 ## 说明
 
-* 游戏的思路和小猫的图片来源于 [www.gamedesign.jp](https://www.gamedesign.jp/flash/chatnoir/chatnoir.html)，原来的游戏名叫 Chat Noir，我只是尝试用 javascript 重写一遍。
+* 游戏的思路和小猫的图片来源于 [www.gamedesign.jp](https://www.gamedesign.jp/flash/chatnoir/chatnoir.html)，原来的游戏名叫 Chat Noir，我只是尝试用 Phaser3 重写一遍。
 
 ## License
 

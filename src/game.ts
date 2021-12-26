@@ -49,7 +49,7 @@ export default class CatchTheCatGame extends Phaser.Game {
         let w = config.w;
         let h = config.h;
         let r = config.r * window.devicePixelRatio;
-        let canvasZoom = 1 / window.devicePixelRatio;
+        let canvasZoom = 1;
         let canvasWidth = Math.floor((6.5 + 2 * w) * r);
         let canvasHeight = Math.floor((6 + Math.sqrt(3) * h) * r);
         let scene = new MainScene(w, h, r);

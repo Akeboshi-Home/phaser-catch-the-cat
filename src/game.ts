@@ -56,6 +56,11 @@ export default class CatchTheCatGame extends Phaser.Game {
         const gameConfig: GameConfig = {
             width: canvasWidth,
             height: canvasHeight,
+            // @ts-ignore
+            scale: {
+                // @ts-ignore
+                mode: Phaser.Scale.FIT
+            },
             type: Phaser.AUTO,
             parent: config.parent,
             backgroundColor: config.backgroundColor,
